@@ -1,13 +1,6 @@
 product: android/app
 
-dependencies:
-  - //shared
-  - $libs.androidx.activity.compose
-  - $compose.preview
-  - $compose.uiTooling
-
 settings:
-  compose: enabled
   android:
     namespace: org.example.kotlinandroidtest
     applicationId: org.example.kotlinandroidtest
