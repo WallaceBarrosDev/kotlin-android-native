@@ -7,18 +7,37 @@
   android:gravity="center"
   android:orientation="vertical">
 
+  <LinearLayout
+    android:id="@+id/form"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:visibility="visible"
+    android:orientation="vertical">
+
+    <EditText
+      android:id="@+id/input"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="Digite seu nome"
+      android:inputType="textPersonName"
+      android:maxLines="1"/>
+
+    <Button
+      android:id="@+id/button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:text="Click me!"/>
+  </LinearLayout>
+  
   <TextView
     android:id="@+id/text"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:textSize="24sp"
-    android:text="Hello, World!"/>
-
-  <Button
-    android:id="@+id/button"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
     android:layout_margin="16dp"
-    android:text="Click me!"/>
+    android:textSize="24sp"
+    android:visibility="gone"
+    android:text=""/>
 
 </LinearLayout>
